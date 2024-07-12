@@ -42,7 +42,7 @@ class PyStack(Stack):
         if directory.exists() and directory.is_dir():
             shutil.rmtree(directory)
 
-        pyfunc2 = Function(
+        pyfunc = Function(
             self, 
             'pyfuncbundle',
             handler='index.handler',
